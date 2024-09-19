@@ -1,0 +1,64 @@
+header, footer{
+    background-color: rgb(201, 93, 237);
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+}	
+
+section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+footer{
+    background-color: #7646cb;
+}	
+
+
+.contenedor {
+    text-align: center;
+}
+
+.tarjeta {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.tarjeta h2 {
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    margin-bottom: 20px;
+    color: #3b2942;
+}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f586ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #be00b2;
+}
